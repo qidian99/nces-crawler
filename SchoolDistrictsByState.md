@@ -18,3 +18,11 @@ table:nth-child(11) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-chil
 ### JS Path:
 document.querySelector("body > div:nth-child(7) > div.sfsContent > table:nth-child(11) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2) > font > a")
 
+await driver.findElement(By.css('a[href="JavaScript:GetExcelFile();"]')).click();
+
+document.querySelectorAll('td[align=right] > a[target^=NCESExcelTarget]').
+
+
+### Chrome Popup
+https://www.youtube.com/watch?v=ia7EhHLZas8
+
